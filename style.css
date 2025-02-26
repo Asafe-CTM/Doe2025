@@ -1,0 +1,49 @@
+body {
+    padding: 5%;
+
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.doemorning p {
+    margin-top: 0px;
+}
+
+img.right {
+    max-width: 40%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    margin-left: 30px;
+}
+img.left {
+    max-width: 40%;
+    height: auto;
+    object-fit: cover;
+    float: left;
+    margin-right: 30px;
+}
+
+img.heber {
+    width: 30%;
+}
+
+@media (max-width: 600px) {
+    img.right {
+        max-width: 100%;
+    }
+    img.left {
+        max-width: 100%;
+    }
+}
